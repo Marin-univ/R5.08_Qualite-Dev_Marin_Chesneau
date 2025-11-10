@@ -46,7 +46,8 @@ Pour ce faire, vous devriez utiliser un IDE compatible avec les devcontainers, t
 {
     "name": "Java Gradle Devcontainer",
     "image": "debian:trixie-slim",
-    "workspaceFolder": "/workspace"
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
 }
 ```
 6. Ouvrir le dossier du projet dans un conteneur en utilisant la commande "Dev Containers: Reopen Folder in Container".
