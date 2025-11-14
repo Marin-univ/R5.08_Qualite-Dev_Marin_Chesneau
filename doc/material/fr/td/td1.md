@@ -583,6 +583,40 @@ Le fichier `package.json` est un fichier de configuration essentiel pour les pro
 - **Performances améliorées** : Grâce à son approche de gestion des dépendances, PNPM offre des performances de téléchargement et d'installation plus rapides.
 - **Workspaces** : PNPM prend en charge les workspaces, permettant de gérer plusieurs packages dans un même dépôt. C'est un outil intégré pour les monorepos.
 
+### Installer Node et PNPM
+
+De la même manière que pour Java, nous allons utiliser un équivalent de SDKMAN pour NodeJS, nommé NVM (Node Version Manager).
+
+Pour installer la dernière version de NVM, se rendre sur le dépôt officiel : <https://github.com/nvm-sh/nvm>
+
+La commande prend la même forme que pour SDKMAN :
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
+:::tip
+L'installateur de NVM ajoute automatiquement les lignes nécessaires à votre fichier de configuration de shell (`.bashrc`, `.zshrc`, etc.).
+
+Lors des commandes en environnement non-interactif (ex: Dockerfile), pensez à sourcer le fichier de configuration du shell pour que NVM soit disponible dans le contexte courant :
+```bash
+source $HOME/.bashrc && <ma_commande_nvm>
+```
+:::
+
+Pour installer la dernière version stable de NodeJS, exécutez la commande suivante :
+```bash
+nvm install 24 && nvm use 24 && nvm alias default 24 
+```
+
+Ensuite, pour installer PNPM globalement, utilisez les commandes suivante :
+```bash
+corepack enable pnpm && corepack use pnpm@10
+```
+
+:::tip
+Si vous rajoutez ces étapes dans votre Dockerfile, vous pouvez utiliser les variables d'environnement pour figer les versions majeures $NODE_VERSION et $PNPM_VERSION
+:::
+
 ### Configuration d'un projet PNPM
 
 1. Créez un nouveau répertoire pour votre projet et naviguez à l'intérieur.
