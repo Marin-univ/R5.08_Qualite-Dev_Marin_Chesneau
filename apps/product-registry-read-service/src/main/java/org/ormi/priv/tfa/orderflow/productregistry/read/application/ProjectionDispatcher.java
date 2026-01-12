@@ -18,7 +18,8 @@ import jakarta.resource.spi.IllegalStateException;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Dispatcheur de projections pour mettre à jour les vues.
+ * Traite les événements domaines et les applique aux vues de lecture.
  */
 
 @ApplicationScoped

@@ -112,4 +112,3 @@ TODO
 - Thibaud FAURIE :
   - [@thibaud.faurie (Private GitLab)](https://gitlab.cloud0.openrichmedia.org/thibaud.faurie)
   - [@thibaud-faurie (LinkedIn)](https://www.linkedin.com/in/thibaud-faurie/)
-

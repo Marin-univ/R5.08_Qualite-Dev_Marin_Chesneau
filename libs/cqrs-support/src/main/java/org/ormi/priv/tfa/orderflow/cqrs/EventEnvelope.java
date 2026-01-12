@@ -4,7 +4,8 @@ import java.time.Instant;
 import java.util.UUID;
 
 /**
- * TODO: Complete Javadoc
+ * Enveloppe qui encapsule un événement domaine avec ses métadonnées.
+ * Contient l'événement, son numéro de séquence et l'instant d'occurrence.
  */
 
 public class EventEnvelope<E extends DomainEvent> {

@@ -5,7 +5,8 @@ import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 
 /**
- * TODO: Complete Javadoc
+ * Point d'entrée principal de l'application store-back.
+ * Démarre le serveur Quarkus et l'application de gestion des produits.
  */
 
 @QuarkusMain

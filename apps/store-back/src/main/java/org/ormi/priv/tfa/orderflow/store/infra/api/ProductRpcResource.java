@@ -28,7 +28,8 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response.Status;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST exposant les opérations sur les produits.
+ * Gère l'enregistrement, modification et suppression de produits.
  */
 
 @Path("/products")

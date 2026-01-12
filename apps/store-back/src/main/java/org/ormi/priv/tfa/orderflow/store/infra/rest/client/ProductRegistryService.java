@@ -12,7 +12,8 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.QueryParam;
 
 /**
- * TODO: Complete Javadoc
+ * Client REST pour accéder aux services de lecture des produits.
+ * Permet de rechercher et récupérer les informations des produits du registre.
  */
 
 @ApplicationScoped

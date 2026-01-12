@@ -12,7 +12,8 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Implémentation JPA du dépôt des événements.
+ * Persiste les événements domaines dans la base de données.
  */
 
 @ApplicationScoped

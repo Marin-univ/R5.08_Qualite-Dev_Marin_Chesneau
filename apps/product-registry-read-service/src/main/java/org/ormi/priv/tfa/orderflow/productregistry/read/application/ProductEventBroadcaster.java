@@ -9,7 +9,8 @@ import io.smallrye.mutiny.subscription.MultiEmitter;
 import jakarta.enterprise.context.ApplicationScoped;
 
 /**
- * TODO: Complete Javadoc
+ * Diffuseur d'événements pour les flux de produits en temps réel.
+ * Permet à plusieurs clients de s'abonner aux changements de produits.
  */
 
 @ApplicationScoped

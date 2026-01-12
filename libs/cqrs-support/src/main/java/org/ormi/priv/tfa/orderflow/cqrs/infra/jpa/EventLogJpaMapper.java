@@ -13,7 +13,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mappeur MapStruct pour convertir les enveloppes d'événements en entités JPA.
+ * Transforme les événements domaines en format persistant.
  */
 
 @Mapper(

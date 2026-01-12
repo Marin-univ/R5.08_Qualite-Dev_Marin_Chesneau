@@ -16,7 +16,8 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 /**
- * TODO: Complete Javadoc
+ * Agrégat représentant un produit.
+ * Gère l'état et les transitions d'un produit dans son cycle de vie.
  */
 
 @Getter

@@ -18,7 +18,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA représentant une boîte de sortie pour la publication des événements.
+ * Gère les tentatives de publication et les erreurs.
  */
 
 @Getter

@@ -15,7 +15,8 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Implémentation JPA du dépôt de la boîte de sortie.
+ * Gère la publication des événements et leur suivi.
  */
 
 @ApplicationScoped

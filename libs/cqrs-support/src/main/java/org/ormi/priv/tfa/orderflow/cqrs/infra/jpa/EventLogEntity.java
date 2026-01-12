@@ -21,7 +21,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA représentant l'enregistrement d'un événement dans le journal.
+ * Stocke tous les événements domaines avec leurs métadonnées.
  */
 
 @Getter

@@ -5,7 +5,8 @@ import java.util.List;
 import org.ormi.priv.tfa.orderflow.cqrs.infra.jpa.OutboxEntity;
 
 /**
- * TODO: Complete Javadoc
+ * Contrat pour l'accès à la boîte de sortie des événements.
+ * Permet de publier, récupérer et marquer les événements comme échoués.
  */
 
 public interface OutboxRepository {
